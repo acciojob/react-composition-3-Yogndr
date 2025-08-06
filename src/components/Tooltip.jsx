@@ -17,7 +17,7 @@ function Tooltip({text,children}) {
         
     <div className='tooltip' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{margin:"200px 600px"}}>
         {isVisible && <div className="tooltiptext" style={{color: "white", border: "1px solid black", backgroundColor:"red", width:"100px", height:"50px", borderRadius:"5px"}}>{text}</div>}
-        {children}
+        {children}        
     </div>
 </div>
   )
